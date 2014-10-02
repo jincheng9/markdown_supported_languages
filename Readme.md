@@ -1,7 +1,6 @@
 ### For markdown texts, we need to specify the languages for corresponding syntax highlighting. 
 
 
-Inline-style: 
 ![code syntax](https://github.com/jincheng9/markdown_supported_languages/blob/master/markdown_code_syntax.jpg)
 
 ``` cpp
