@@ -1,253 +1,268 @@
-For markdown texts, we need to specify the languages for corresponding syntax highlighting. 
+## For markdown texts, we need to specify the languages for corresponding syntax highlighting. 
+<html>
+``` cpp
+bool getBit(int num, int i) {
+	return ((num & (1<<i)) != 0);
+}
+```
+</html>
 
-Here's a full list of supported languages:
+``` cpp
+bool getBit(int num, int i) {
+	return ((num & (1<<i)) != 0);
+}
+```
 
-Cucumber ('*.feature')
+## Here's a full list of supported languages:
 
-abap ('*.abap')
+ * Cucumber ('*.feature')
 
-ada ('*.adb', '*.ads', '*.ada')
+ * abap ('*.abap')
 
-ahk ('*.ahk', '*.ahkl')
+ * ada ('*.adb', '*.ads', '*.ada')
 
-apacheconf ('.htaccess', 'apache.conf', 'apache2.conf')
+ * ahk ('*.ahk', '*.ahkl')
 
-applescript ('*.applescript')
+ * apacheconf ('.htaccess', 'apache.conf', 'apache2.conf')
 
-as ('*.as')
+ * applescript ('*.applescript')
 
-as3 ('*.as')
+ * as ('*.as')
 
-asy ('*.asy')
+ * as3 ('*.as')
 
-bash ('*.sh', '*.ksh', '*.bash', '*.ebuild', '*.eclass')
+ * asy ('*.asy')
 
-bat ('*.bat', '*.cmd')
+ * bash ('*.sh', '*.ksh', '*.bash', '*.ebuild', '*.eclass')
 
-befunge ('*.befunge')
+ * bat ('*.bat', '*.cmd')
 
-blitzmax ('*.bmx')
+ * befunge ('*.befunge')
 
-boo ('*.boo')
+ * blitzmax ('*.bmx')
 
-brainfuck ('*.bf', '*.b')
+ * boo ('*.boo')
 
-c ('*.c', '*.h')
+ * brainfuck ('*.bf', '*.b')
 
-cfm ('*.cfm', '*.cfml', '*.cfc')
+ * c ('*.c', '*.h')
 
-cheetah ('*.tmpl', '*.spt')
+ * cfm ('*.cfm', '*.cfml', '*.cfc')
 
-cl ('*.cl', '*.lisp', '*.el')
+ * cheetah ('*.tmpl', '*.spt')
 
-clojure ('*.clj', '*.cljs')
+ * cl ('*.cl', '*.lisp', '*.el')
 
-cmake ('*.cmake', 'CMakeLists.txt')
+ * clojure ('*.clj', '*.cljs')
 
-coffeescript ('*.coffee')
+ * cmake ('*.cmake', 'CMakeLists.txt')
 
-console ('*.sh-session')
+ * coffeescript ('*.coffee')
 
-control ('control')
+ * console ('*.sh-session')
 
-cpp ('*.cpp', '*.hpp', '*.c++', '*.h++', '*.cc', '*.hh', '*.cxx', '*.hxx', '*.pde')
+ * control ('control')
 
-csharp ('*.cs')
+ * cpp ('*.cpp', '*.hpp', '*.c++', '*.h++', '*.cc', '*.hh', '*.cxx', '*.hxx', '*.pde')
 
-css ('*.css')
+ * csharp ('*.cs')
 
-cython ('*.pyx', '*.pxd', '*.pxi')
+ * css ('*.css')
 
-d ('*.d', '*.di')
+ * cython ('*.pyx', '*.pxd', '*.pxi')
 
-delphi ('*.pas')
+ * d ('*.d', '*.di')
 
-diff ('*.diff', '*.patch')
+ * delphi ('*.pas')
 
-dpatch ('*.dpatch', '*.darcspatch')
+ * diff ('*.diff', '*.patch')
 
-duel ('*.duel', '*.jbst')
+ * dpatch ('*.dpatch', '*.darcspatch')
 
-dylan ('*.dylan', '*.dyl')
+ * duel ('*.duel', '*.jbst')
 
-erb ('*.erb')
+ * dylan ('*.dylan', '*.dyl')
 
-erl ('*.erl-sh')
+ * erb ('*.erb')
 
-erlang ('*.erl', '*.hrl')
+ * erl ('*.erl-sh')
 
-evoque ('*.evoque')
+ * erlang ('*.erl', '*.hrl')
 
-factor ('*.factor')
+ * evoque ('*.evoque')
 
-felix ('*.flx', '*.flxh')
+ * factor ('*.factor')
 
-fortran ('*.f', '*.f90')
+ * felix ('*.flx', '*.flxh')
 
-gas ('*.s', '*.S')
+ * fortran ('*.f', '*.f90')
 
-genshi ('*.kid')
+ * gas ('*.s', '*.S')
 
-glsl ('*.vert', '*.frag', '*.geo')
+ * genshi ('*.kid')
 
-gnuplot ('*.plot', '*.plt')
+ * glsl ('*.vert', '*.frag', '*.geo')
 
-go ('*.go')
+ * gnuplot ('*.plot', '*.plt')
 
-groff ('*.(1234567)', '*.man')
+ * go ('*.go')
 
-haml ('*.haml')
+ * groff ('*.(1234567)', '*.man')
 
-haskell ('*.hs')
+ * haml ('*.haml')
 
-html ('*.html', '*.htm', '*.xhtml', '*.xslt')
+ * haskell ('*.hs')
 
-hx ('*.hx')
+ * html ('*.html', '*.htm', '*.xhtml', '*.xslt')
 
-hybris ('*.hy', '*.hyb')
+ * hx ('*.hx')
 
-ini ('*.ini', '*.cfg')
+ * hybris ('*.hy', '*.hyb')
 
-io ('*.io')
+ * ini ('*.ini', '*.cfg')
 
-ioke ('*.ik')
+ * io ('*.io')
 
-irc ('*.weechatlog')
+ * ioke ('*.ik')
 
-jade ('*.jade')
+ * irc ('*.weechatlog')
 
-java ('*.java')
+ * jade ('*.jade')
 
-js ('*.js')
+ * java ('*.java')
 
-jsp ('*.jsp')
+ * js ('*.js')
 
-lhs ('*.lhs')
+ * jsp ('*.jsp')
 
-llvm ('*.ll')
+ * lhs ('*.lhs')
 
-logtalk ('*.lgt')
+ * llvm ('*.ll')
 
-lua ('*.lua', '*.wlua')
+ * logtalk ('*.lgt')
 
-make ('*.mak', 'Makefile', 'makefile', 'Makefile.*', 'GNUmakefile')
+ * lua ('*.lua', '*.wlua')
 
-mako ('*.mao')
+ * make ('*.mak', 'Makefile', 'makefile', 'Makefile.*', 'GNUmakefile')
 
-maql ('*.maql')
+ * mako ('*.mao')
 
-mason ('*.mhtml', '*.mc', '*.mi', 'autohandler', 'dhandler')
+ * maql ('*.maql')
 
-markdown ('*.md')
+ * mason ('*.mhtml', '*.mc', '*.mi', 'autohandler', 'dhandler')
 
-modelica ('*.mo')
+ * markdown ('*.md')
 
-modula2 ('*.def', '*.mod')
+ * modelica ('*.mo')
 
-moocode ('*.moo')
+ * modula2 ('*.def', '*.mod')
 
-mupad ('*.mu')
+ * moocode ('*.moo')
 
-mxml ('*.mxml')
+ * mupad ('*.mu')
 
-myghty ('*.myt', 'autodelegate')
+ * mxml ('*.mxml')
 
-nasm ('*.asm', '*.ASM')
+ * myghty ('*.myt', 'autodelegate')
 
-newspeak ('*.ns2')
+ * nasm ('*.asm', '*.ASM')
 
-objdump ('*.objdump')
+ * newspeak ('*.ns2')
 
-objectivec ('*.m')
+ * objdump ('*.objdump')
 
-objectivej ('*.j')
+ * objectivec ('*.m')
 
-ocaml ('*.ml', '*.mli', '*.mll', '*.mly')
+ * objectivej ('*.j')
 
-ooc ('*.ooc')
+ * ocaml ('*.ml', '*.mli', '*.mll', '*.mly')
 
-perl ('*.pl', '*.pm')
+ * ooc ('*.ooc')
 
-php ('*.php', '*.php(345)')
+ * perl ('*.pl', '*.pm')
 
-postscript ('*.ps', '*.eps')
+ * php ('*.php', '*.php(345)')
 
-pot ('*.pot', '*.po')
+ * postscript ('*.ps', '*.eps')
 
-pov ('*.pov', '*.inc')
+ * pot ('*.pot', '*.po')
 
-prolog ('*.prolog', '*.pro', '*.pl')
+ * pov ('*.pov', '*.inc')
 
-properties ('*.properties')
+ * prolog ('*.prolog', '*.pro', '*.pl')
 
-protobuf ('*.proto')
+ * properties ('*.properties')
 
-py3tb ('*.py3tb')
+ * protobuf ('*.proto')
 
-pytb ('*.pytb')
+ * py3tb ('*.py3tb')
 
-python ('*.py', '*.pyw', '*.sc', 'SConstruct', 'SConscript', '*.tac')
+ * pytb ('*.pytb')
 
-rb ('*.rb', '*.rbw', 'Rakefile', '*.rake', '*.gemspec', '*.rbx', '*.duby')
+ * python ('*.py', '*.pyw', '*.sc', 'SConstruct', 'SConscript', '*.tac')
 
-rconsole ('*.Rout')
+ * r ('*.R')
 
-rebol ('*.r', '*.r3')
+ * rb ('*.rb', '*.rbw', 'Rakefile', '*.rake', '*.gemspec', '*.rbx', '*.duby')
 
-redcode ('*.cw')
+ * rconsole ('*.Rout')
 
-rhtml ('*.rhtml')
+ * rebol ('*.r', '*.r3')
 
-rst ('*.rst', '*.rest')
+ * redcode ('*.cw')
 
-sass ('*.sass')
+ * rhtml ('*.rhtml')
 
-scala ('*.scala')
+ * rst ('*.rst', '*.rest')
 
-scaml ('*.scaml')
+ * sass ('*.sass')
 
-scheme ('*.scm')
+ * scala ('*.scala')
 
-scss ('*.scss')
+ * scaml ('*.scaml')
 
-smalltalk ('*.st')
+ * scheme ('*.scm')
 
-smarty ('*.tpl')
+ * scss ('*.scss')
 
-sourceslist ('sources.list')
+ * smalltalk ('*.st')
 
-splus ('*.S', '*.R')
+ * smarty ('*.tpl')
 
-sql ('*.sql')
+ * sourceslist ('sources.list')
 
-sqlite3 ('*.sqlite3-console')
+ * splus ('*.S', '*.R')
 
-squidconf ('squid.conf')
+ * sql ('*.sql')
 
-ssp ('*.ssp')
+ * sqlite3 ('*.sqlite3-console')
 
-tcl ('*.tcl')
+ * squidconf ('squid.conf')
 
-tcsh ('*.tcsh', '*.csh')
+ * ssp ('*.ssp')
 
-tex ('*.tex', '*.aux', '*.toc')
+ * tcl ('*.tcl')
 
-text ('*.txt')
+ * tcsh ('*.tcsh', '*.csh')
 
-v ('*.v', '*.sv')
+ * tex ('*.tex', '*.aux', '*.toc')
 
-vala ('*.vala', '*.vapi')
+ * text ('*.txt')
 
-vbnet ('*.vb', '*.bas')
+ * v ('*.v', '*.sv')
 
-velocity ('*.vm', '*.fhtml')
+ * vala ('*.vala', '*.vapi')
 
-vim ('*.vim', '.vimrc')
+ * vbnet ('*.vb', '*.bas')
 
-xml ('*.xml', '*.xsl', '*.rss', '*.xslt', '*.xsd', '*.wsdl')
+ * velocity ('*.vm', '*.fhtml')
 
-xquery ('*.xqy', '*.xquery')
+ * vim ('*.vim', '.vimrc')
 
-xslt ('*.xsl', '*.xslt')
+ * xml ('*.xml', '*.xsl', '*.rss', '*.xslt', '*.xsd', '*.wsdl')
 
-yaml ('*.yaml', '*.yml')
+ * xquery ('*.xqy', '*.xquery')
+
+ * xslt ('*.xsl', '*.xslt')
+
+ * yaml ('*.yaml', '*.yml')
