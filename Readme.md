@@ -1,15 +1,8 @@
 ### For markdown texts, we need to specify the languages for corresponding syntax highlighting. 
 
-``` cpp
-``` cpp
-bool getBit(int num, int i) {
-	return ((num & (1<<i)) != 0);
-}
-```
-```
 
 Inline-style: 
-![alt text](https://github.com/jincheng9/markdown_supported_languages/blob/master/markdown_code_syntax.jpg "Logo Title Text 1")
+![code syntax](https://github.com/jincheng9/markdown_supported_languages/blob/master/markdown_code_syntax.jpg)
 
 ``` cpp
 bool getBit(int num, int i) {
