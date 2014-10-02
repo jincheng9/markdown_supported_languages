@@ -1,19 +1,19 @@
-## For markdown texts, we need to specify the languages for corresponding syntax highlighting. 
-<html>
-``` cpp
-bool getBit(int num, int i) {
-	return ((num & (1<<i)) != 0);
-}
-```
-</html>
+### For markdown texts, we need to specify the languages for corresponding syntax highlighting. 
 
-``` cpp
+
+``` cpp-none
 bool getBit(int num, int i) {
 	return ((num & (1<<i)) != 0);
 }
 ```
 
-## Here's a full list of supported languages:
+``` cpp
+bool getBit(int num, int i) {
+	return ((num & (1<<i)) != 0);
+}
+```
+
+### Here's a full list of supported languages:
 
  * Cucumber ('*.feature')
 
