@@ -2,7 +2,7 @@
 
 Following is an example for highlighting c++ codes in markdown texts.
 
-	![code syntax](https://github.com/jincheng9/markdown_supported_languages/blob/master/markdown_code_syntax.jpg)
+![code syntax](https://github.com/jincheng9/markdown_supported_languages/blob/master/markdown_code_syntax.jpg)
 
 ``` cpp
 bool getBit(int num, int i) {
