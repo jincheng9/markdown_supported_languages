@@ -10,7 +10,9 @@ bool getBit(int num, int i) {
 }
 ```
 
-Note: **Github uses Linguist to perform language detection and syntax highlighting. Here a list of common languages that can be used with the backtick (see full list in [Linguist - languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).**
+**Note**: The programming languages supported by the markdown depends on the markdown editor. The editor need to detect the language and do the syntax highlight.
+
+* For example, Bitbucket describes its [Bitbucket markdown supported languages](https://bitbucket.org/tutorials/markdowndemo/src/master/#markdown-header-code-and-syntax-highlighting).
 
 ### Here's a full list of supported languages:
 
