@@ -10,7 +10,7 @@ bool getBit(int num, int i) {
 }
 ```
 
-**Note**: The programming languages supported by the markdown depends on the markdown editor. The editor need to detect the language and do the syntax highlight.
+**Note**: The programming languages supported by the markdown depends on the markdown editor you use. The editor need to detect the language and do the syntax highlight.
 
 * For example, Bitbucket describes its [Bitbucket markdown supported languages](https://bitbucket.org/tutorials/markdowndemo/src/master/#markdown-header-code-and-syntax-highlighting).
 
