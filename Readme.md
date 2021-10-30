@@ -10,6 +10,8 @@ bool getBit(int num, int i) {
 }
 ```
 
+Note: **Github uses Linguist to perform language detection and syntax highlighting. Here a list of common languages that can be used with the backtick (see full list in [Linguist - languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).**
+
 ### Here's a full list of supported languages:
 
  * Cucumber ('*.feature')
