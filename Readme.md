@@ -1,9 +1,15 @@
 ### For markdown texts, we need to specify the languages for corresponding syntax highlighting. 
 
-Following is an example for highlighting c++ codes in markdown texts.
+Following is an example for highlighting c++ codes in markdown texts:
 
-![code syntax](https://github.com/jincheng9/markdown_supported_languages/blob/master/markdown_code_syntax.jpg)
-
+```` markdown
+``` cpp
+bool getBit(int num, int i) {
+    return ((num & (1<<i)) != 0);
+}
+```
+````
+Which becomes:
 ``` cpp
 bool getBit(int num, int i) {
 	return ((num & (1<<i)) != 0);
