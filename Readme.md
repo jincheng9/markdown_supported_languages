@@ -3,7 +3,7 @@
 Following is an example for highlighting c++ codes in markdown texts:
 
 ```` text
-``` cpp
+```cpp
 bool getBit(int num, int i) {
     return ((num & (1<<i)) != 0);
 }
