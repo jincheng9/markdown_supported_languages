@@ -108,6 +108,8 @@ bool getBit(int num, int i) {
 
  * genshi ('*.kid')
 
+ * gitignore ('.gitignore')
+
  * glsl ('*.vert', '*.frag', '*.geo')
 
  * gnuplot ('*.plot', '*.plt')
